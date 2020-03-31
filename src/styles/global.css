@@ -1,0 +1,8 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: var(--test-color);
+  margin: 0;
+}
