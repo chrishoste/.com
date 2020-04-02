@@ -4,7 +4,13 @@
   margin: 0;
 }
 
+h1,
+h1,
+p {
+  color: var(--primary-color);
+}
+
 body {
-  background-color: var(--test-color);
   margin: 0;
+  background-color: #fffdd0;
 }

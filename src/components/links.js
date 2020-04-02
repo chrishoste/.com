@@ -5,14 +5,14 @@ import Mail from "../img/mail.svg";
 import In from "../img/in.svg";
 
 export default () => (
-  <div className={styles.container}>
-    <a href="https://www.google.de/" onClick={e => e.stopPropagation()}>
+  <div className={styles.links}>
+    <a href="https://www.google.de/">
       <Github />
     </a>
-    <a href="https://www.google.de/" onClick={e => e.stopPropagation()}>
+    <a href="https://www.google.de/">
       <Mail />
     </a>
-    <a href="https://www.google.de/" onClick={e => e.stopPropagation()}>
+    <a href="https://www.google.de/">
       <In />
     </a>
   </div>
