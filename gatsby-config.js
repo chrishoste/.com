@@ -5,5 +5,17 @@
  */
 
 module.exports = {
-  /* Your site config here */
-}
+  siteMetadata: {
+    siteUrl: `https://chrishoste.com`
+  },
+  plugins: [
+    {
+      resolve: "gatsby-plugin-react-svg",
+      options: {
+        rule: {
+          include: /img/
+        }
+      }
+    }
+  ]
+};

@@ -1,0 +1,20 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.light {
+  font-weight: lighter;
+}
+
+.subText {
+  color: grey;
+  font-size: 0.8rem;
+  float: right;
+}
+
+.container p {
+  margin-top: 5px;
+  font-size: 1.5rem;
+  text-align: right;
+}

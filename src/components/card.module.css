@@ -3,17 +3,5 @@
   height: 100%;
   width: 100%;
   cursor: pointer;
-  will-change: transform, opacity;
-  background-color: pink;
-}
-
-.back {
-  background-color: peru;
-  border-radius: 5px;
-}
-
-.front {
-  color: white;
-  background-color: #262528;
-  border-radius: 5px;
+  will-change: transform, opacity, display;
 }

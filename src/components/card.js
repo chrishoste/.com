@@ -1,9 +1,11 @@
 import React, { useState } from "react";
-import { useSpring, animated as a } from "react-spring";
+import { useSpring, animated } from "react-spring";
 import styles from "./card.module.css";
+import Front from "./front";
+import Back from "./back";
 
 export default () => {
-  const [flipped, set] = useState(false);
+  const [flipped, set] = useState(true);
   const { transform, opacity } = useSpring({
     opacity: flipped ? 1 : 0,
     transform: `perspective(600px) rotateY(${flipped ? 180 : 0}deg)`,
@@ -12,21 +14,24 @@ export default () => {
 
   return (
     <div onClick={() => set(state => !state)}>
-      <a.div
-        className={`${styles.c} ${styles.front}`}
-        style={{ opacity: opacity.interpolate(o => 1 - o), transform }}
+      <animated.div
+        className={styles.c}
+        style={{
+          opacity: opacity.interpolate(o => 1 - o),
+          transform
+        }}
       >
-        Front
-      </a.div>
-      <a.div
-        className={`${styles.c} ${styles.back}`}
+        <Back />
+      </animated.div>
+      <animated.div
+        className={styles.c}
         style={{
           opacity,
           transform: transform.interpolate(t => `${t} rotateY(180deg)`)
         }}
       >
-        Back
-      </a.div>
+        <Front />
+      </animated.div>
     </div>
   );
 };
