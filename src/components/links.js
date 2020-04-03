@@ -7,13 +7,13 @@ import In from "../img/in.svg";
 
 export default () => (
   <div className={styles.links}>
-    <OutboundLink href="https://www.google.de/">
+    <OutboundLink href="https://github.com/chrishoste">
       <Github />
     </OutboundLink>
-    <OutboundLink href="https://www.google.de/">
+    <OutboundLink href="https://github.com/chrishoste">
       <Mail />
     </OutboundLink>
-    <OutboundLink href="https://www.google.de/">
+    <OutboundLink href="https://www.xing.com/profile/Christophe_Hoste2">
       <In />
     </OutboundLink>
   </div>
