@@ -16,6 +16,8 @@ module.exports = {
           include: /img/
         }
       }
-    }
+    },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-offline`
   ]
 };
