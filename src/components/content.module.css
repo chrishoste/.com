@@ -4,13 +4,16 @@
   flex-direction: column;
 }
 
-.content .skills {
+.content .aboutme {
   text-align: center;
+  font-size: 1rem;
+  margin-bottom: 1rem;
 }
 
 .content h1 {
   font-weight: lighter;
   font-size: 3rem;
+  text-align: center;
 }
 
 .content h1 span {
@@ -20,5 +23,12 @@
 
 .content h2 {
   font-size: 1rem;
-  color: #6a6a6a;
+  text-align: center;
+  color: var(--grey-color);
+}
+
+@media (max-width: 400px) {
+  .content h1 {
+    font-size: 2rem;
+  }
 }
