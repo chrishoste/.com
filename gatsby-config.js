@@ -17,6 +17,37 @@ module.exports = {
         }
       }
     },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/sitemap.xml`,
+        exclude: ["/privacy", `/legal`],
+        query: `
+          {
+            site {
+              siteMetadata {
+                siteUrl
+              }
+            }
+  
+            allSitePage {
+              edges {
+                node {
+                  path
+                }
+              }
+            }
+        }`
+      }
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://chrishoste.com',
+        sitemap: 'https://chrishoste.com/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/', disallow: ["/privacy", "/legal"], }]
+      }
+    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-offline`
   ]
