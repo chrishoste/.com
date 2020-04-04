@@ -48,6 +48,15 @@ module.exports = {
         policy: [{ userAgent: '*', allow: '/', disallow: ["/privacy", "/legal"], }]
       }
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-162772839-1",
+        head: true,
+        anonymize: true,
+        respectDNT: true
+      },
+    },
     `gatsby-plugin-netlify`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-offline`
