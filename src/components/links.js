@@ -13,7 +13,7 @@ export default () => (
     <OutboundLink href="mailto:mail@chrishoste.com" target="_blank" rel="noopener noreferrer" aria-label="Link to my Xing profile">
       <Mail alt="Envelope_Icon" />
     </OutboundLink>
-    <OutboundLink href="https://www.xing.com/profile/Christophe_Hoste2" rel="noopener noreferrer" target="_blank" aria-label="Link to my Xing profile">
+    <OutboundLink href="https://www.linkedin.com/in/christophe-hoste-4626a31a6" rel="noopener noreferrer" target="_blank" aria-label="Link to my Xing profile">
       <In alt="LinkedIn_Icon" />
     </OutboundLink>
   </div>
