@@ -30,5 +30,9 @@ export default () => (
       <Content />
       <Links />
     </div>
+
+    <Helmet>
+      <script src="correctViewHeight.js"></script>
+    </Helmet>
   </>
 );
