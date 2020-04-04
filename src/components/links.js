@@ -10,7 +10,7 @@ export default () => (
     <OutboundLink href="https://github.com/chrishoste" rel="noopener noreferrer" target="_blank" aria-label="Link to my GitHub profile">
       <Github alt="GitHub_con" />
     </OutboundLink>
-    <OutboundLink href="mailto:mail@chrishoste.com" rel="noopener noreferrer" aria-label="Link to my Xing profile">
+    <OutboundLink href="mailto:mail@chrishoste.com" target="_blank" rel="noopener noreferrer" aria-label="Link to my Xing profile">
       <Mail alt="Envelope_Icon" />
     </OutboundLink>
     <OutboundLink href="https://www.xing.com/profile/Christophe_Hoste2" rel="noopener noreferrer" target="_blank" aria-label="Link to my Xing profile">
