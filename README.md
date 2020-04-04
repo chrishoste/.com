@@ -8,6 +8,7 @@
 <h1 align="center">
     Christophe Hoste - Portfolio
 </h1>
+
 > This was created during my [quarantine challenges](https://github.com/chrishoste/quarantine-challenge). Check out the more stuff I did during this time.
 
 I took the time to create my own site and look into Gatsby.
