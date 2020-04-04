@@ -23,6 +23,7 @@ export default () => (
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="default" />
       <meta name="mobile-web-app-capable" content="yes" />
+      <script src="correctViewHeight.js"></script>
     </Helmet>
 
     <div className={styles.root}>
@@ -30,9 +31,5 @@ export default () => (
       <Content />
       <Links />
     </div>
-
-    <Helmet>
-      <script src="correctViewHeight.js"></script>
-    </Helmet>
   </>
 );
