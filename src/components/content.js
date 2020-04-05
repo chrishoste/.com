@@ -6,11 +6,24 @@ export default () => (
     <h1 className={styles.name}>
       Christophe <span>Hoste</span>
     </h1>
-    <h2>Student <nobr>Computer Science M.Sc.</nobr></h2>
+    <h2>
+      Student <nobr>Computer Science M.Sc.</nobr>
+    </h2>
     <br />
     <p className={styles.aboutme}>
-      Software Developer (iOS) 	&amp; <nobr>passionate about</nobr><br />
-      <strong><nobr>User-Experience</nobr></strong> | <strong><nobr>User-Research</nobr></strong> | <strong><nobr>Usability-Engineering</nobr></strong>
+      Software Developer (iOS) &amp; <nobr>passionate about</nobr>
+      <br />
+      <strong>
+        <nobr>User-Experience</nobr>
+      </strong>{" "}
+      |{" "}
+      <strong>
+        <nobr>User-Research</nobr>
+      </strong>{" "}
+      |{" "}
+      <strong>
+        <nobr>Usability-Engineering</nobr>
+      </strong>
     </p>
-  </div >
+  </div>
 );

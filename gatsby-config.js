@@ -6,21 +6,20 @@
 
 module.exports = {
   siteMetadata: {
-    siteUrl: `https://chrishoste.com`
+    siteUrl: `https://chrishoste.com`,
   },
   plugins: [
     {
       resolve: "gatsby-plugin-react-svg",
       options: {
         rule: {
-          include: /img/
-        }
-      }
+          include: /img/,
+        },
+      },
     },
     {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        output: `/sitemap.xml`,
         exclude: ["/privacy", `/legal`],
         query: `
           {
@@ -37,16 +36,18 @@ module.exports = {
                 }
               }
             }
-        }`
-      }
+        }`,
+      },
     },
     {
-      resolve: 'gatsby-plugin-robots-txt',
+      resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: 'https://chrishoste.com',
-        sitemap: 'https://chrishoste.com/sitemap.xml',
-        policy: [{ userAgent: '*', allow: '/', disallow: ["/privacy", "/legal"], }]
-      }
+        host: "https://chrishoste.com",
+        sitemap: "https://chrishoste.com/sitemap.xml",
+        policy: [
+          { userAgent: "*", allow: "/", disallow: ["/privacy", "/legal"] },
+        ],
+      },
     },
     {
       resolve: `gatsby-plugin-google-analytics`,
@@ -54,11 +55,11 @@ module.exports = {
         trackingId: "UA-162772839-1",
         head: true,
         anonymize: true,
-        respectDNT: true
+        respectDNT: true,
       },
     },
     `gatsby-plugin-netlify`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-offline`
-  ]
+    `gatsby-plugin-offline`,
+  ],
 };

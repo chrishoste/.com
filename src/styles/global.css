@@ -4,13 +4,6 @@
   margin: 0;
 }
 
-h1,
-h2,
-p {
-  text-align: center;
-  color: var(--primary-color);
-}
-
 body {
   margin: 0;
   background-color: #fffdd0;
