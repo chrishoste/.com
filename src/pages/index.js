@@ -33,8 +33,6 @@ export default () => (
       <meta name="apple-mobile-web-app-capable" content="yes" />
       <meta name="apple-mobile-web-app-status-bar-style" content="default" />
       <meta name="mobile-web-app-capable" content="yes" />
-      <meta name="p:domain_verify" content="e2a7de67f65f7ebeb3b12da1ec8ce3c1" />
-      <script src="correctViewHeight.js"></script>
     </Helmet>
 
     <div className={styles.root}>
