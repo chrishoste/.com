@@ -22,7 +22,7 @@ export default () => (
         name="description"
         content="I'm Christophe Hoste a Software-Developer (iOS/Front-End) based in Stuttgart, Germany. Also, passionate about User Experience (UX) / User Research and Usability Engineering. Love building rich interface applications with superior UX in mind. Check out my portfolio and feel free to contact me."
       />
-      <link rel="canonical" href="https://chrishoste.com" />
+      <link rel="canonical" href="https://chrishoste.com/" />
 
       <meta name="application-name" content="Christophe Hoste - Portfolio" />
       <meta name="theme-color" content="#342D3D" />
