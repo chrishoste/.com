@@ -20,7 +20,7 @@ export default () => (
       />
       <meta
         name="description"
-        content="I'm Chris a Software-Developer (iOS/Front-End) based in Stuttgart, Germany. Also, passionate about User Experience (UX) / User Research and Usability Engineering. Love building rich interface applications with superior UX in mind. Check out my portfolio and feel free to contact me."
+        content="I'm Christophe Hoste a Software-Developer (iOS/Front-End) based in Stuttgart, Germany. Also, passionate about User Experience (UX) / User Research and Usability Engineering. Love building rich interface applications with superior UX in mind. Check out my portfolio and feel free to contact me."
       />
       <link rel="canonical" href="https://chrishoste.com" />
 
