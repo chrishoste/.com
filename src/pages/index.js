@@ -14,6 +14,10 @@ export default () => (
       <meta name="viewport" content="width=device-width,initial-scale=1.0" />
 
       <title>Christophe Hoste - Portfolio</title>
+      <meta 
+        name="author" 
+        content="Christophe Hoste"
+       />
       <meta
         name="title"
         content="Christophe Hoste - Software Developer(iOS/Front-End)"
