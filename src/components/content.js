@@ -7,7 +7,7 @@ export default () => (
       Christophe <span>Hoste</span>
     </h1>
     <h2>
-      Student <nobr>Computer Science M.Sc.</nobr>
+      <nobr>Computer Science M.Sc.</nobr>
     </h2>
     <br />
     <p className={styles.aboutme}>
