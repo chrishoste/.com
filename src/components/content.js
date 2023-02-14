@@ -7,11 +7,11 @@ export default () => (
       Christophe <span>Hoste</span>
     </h1>
     <h2>
-      <nobr>Computer Science M.Sc.</nobr>
+      <nobr>Computer Science M.Sc. | NN/g UX Certified</nobr>
     </h2>
     <br />
     <p className={styles.aboutme}>
-      Software Developer (iOS) &amp; <nobr>passionate about</nobr>
+      iOS Engineer &amp; <nobr>passionate about</nobr>
       <br />
       <strong>
         <nobr>User-Experience</nobr>
