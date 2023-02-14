@@ -33,7 +33,7 @@ export default () => (
       <Mail alt="Envelope_Icon" />
     </OutboundLink>
     <OutboundLink
-      href="https://www.linkedin.com/in/christophe-hoste-4626a31a6"
+      href="https://www.linkedin.com/in/christophe-hoste/"
       rel="noopener noreferrer"
       target="_blank"
       aria-label="Link to my Xing profile"
